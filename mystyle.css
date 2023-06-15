@@ -41,8 +41,11 @@ body{
 		position: relative !important;
 		z-index: auto;
 	}
+	.carousel-inner>.item {
+		height: 50vh !important;
+	}
 	.carousel-inner>.item>a>img,
-.carousel-inner>.item>img {
+	.carousel-inner>.item>img {
 	height: auto !important;
 	max-height: 50vh;
 	object-fit: contain;
@@ -166,9 +169,6 @@ body{
 	left: 100%
 }
 
-
-
-
 .item.active.right,
 .carousel-inner>.item.next {
 	-webkit-transform: translate3d(100%, 0, 0);
@@ -212,7 +212,7 @@ body{
 	font-weight: bold;
 	font-stretch: condensed;
 	color: #000000;
-	-webkit-text-stroke: #000000
+	-webkit-text-stroke: #000000;
 }
 
 
