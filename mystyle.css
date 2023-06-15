@@ -9,7 +9,7 @@ body{
 
 .header {
 	
-	padding: 0 2rem;
+	padding: 0.5rem 2rem;
 	text-align: center;
 	line-height: 16.5px;
 	font: 16px Arial;
@@ -21,7 +21,7 @@ body{
 
 .container {
 	padding:0 1rem;
-	margin: 1.5rem auto;
+	margin: 0.6rem auto;
 }
 
 /* da tablet in su */
@@ -43,13 +43,18 @@ body{
 		z-index: auto;
 	}
 	.carousel-inner>.item {
-		height: 50vh !important;
+		height: 40vh !important;
 	}
 	.carousel-inner>.item>a>img,
 	.carousel-inner>.item>img {
+		
 	height: auto !important;
-	max-height: 50vh;
+	max-height: 40vh;
 	object-fit: contain;
+}
+
+.carousel-controls-container a {
+	opacity: 0%;
 }
 }
 
@@ -80,7 +85,7 @@ body{
 	-o-transition: .0s ease-in-out left;
 	transition: .0s ease-in-out left;
 	
-	height: 80vh;
+	height: 82vh;
 }
 
 .carousel-inner>.item>a>img,
@@ -89,7 +94,7 @@ body{
 	top:50%;	
 	left: 50%;
 	transform: translate3d(-50%,-50%,0);
-	max-height: 80vh;
+	max-height: 82vh;
 	height: 100%;
 	object-fit: contain;
 }
@@ -194,6 +199,8 @@ body{
 
 .carousel-controls-container{
 	text-align: center;
+	padding-bottom: 0;
+
 }
 
 .carousel-controls-container a {
@@ -203,6 +210,11 @@ body{
 	font: Arial;
 	font-weight: bold;
 	font-stretch: condensed;
+}
+
+.carousel-controls-container a:hover {
+	text-decoration: none;
+	color: #ffcc00;
 }
 
 .p1 {
