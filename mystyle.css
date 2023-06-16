@@ -37,7 +37,8 @@ body{
 @media screen and (max-width:767px) {
 
 	.header {
-		padding: 0.5rem 0rem;
+		padding: 0.5rem 0rem 0.5rem 0;
+		font-size: 1.5rem;
 	}
 	
 	.container {
@@ -47,6 +48,7 @@ body{
 	.footer{
 		position: 0 !important; /* se si mostra il container con immagini, deve essere relative */
 		z-index: auto;
+		padding-top: 1rem;
 	}
 
 	.footer>.carousel-controls-container a {
