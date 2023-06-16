@@ -9,7 +9,7 @@ body{
 
 .header {
 	
-	padding: 0.5rem 2rem;
+	padding: 0.5rem 0.5rem;
 	text-align: center;
 	line-height: 16.5px;
 	font: 16px Arial;
@@ -24,6 +24,8 @@ body{
 	margin: 0.6rem auto;
 }
 
+
+
 /* da tablet in su */
 @media (min-width:768px){
 	.container {
@@ -34,28 +36,36 @@ body{
 /* da mobile in giù */
 @media screen and (max-width:767px) {
 
+	.header {
+		padding: 0.5rem 0rem;
+	}
+	
 	.container {
-		width: 100% !important;
-		opacity: 0%;
+		width: 0% !important; /* se si mostra il container con immagini, deve essere 100% */
+		display: none;
 	}
 	.footer{
-		position: relative !important;
+		position: 0 !important; /* se si mostra il container con immagini, deve essere relative */
 		z-index: auto;
 	}
+
+	.footer>.carousel-controls-container a {
+		display: none;
+		margin:0;
+	
+	}
+
 	.carousel-inner>.item {
-		height: 40vh !important;
+		height: 30vh !important;
 	}
 	.carousel-inner>.item>a>img,
 	.carousel-inner>.item>img {
 		
 	height: auto !important;
-	max-height: 40vh;
+	max-height: 30vh;
 	object-fit: contain;
 }
 
-.carousel-controls-container a {
-	opacity: 0%;
-}
 }
 
 
@@ -212,13 +222,20 @@ body{
 	font-stretch: condensed;
 }
 
+/* capire se riesco a fare le freccette ai lati delle img
 .carousel-controls-container a:hover {
 	text-decoration: none;
 	color: #ffcc00;
+}*/
+
+
+.carousel-controls-container .container:hover {
+	cursor: pointer;
 }
 
+
 .p1 {
-	margin: 15px 0.0px 15.0px 15px;
+	margin:  0.0px 15.0px 15px;
 	text-align: center;
 	line-height: 16.5px;
 	font: 16px Arial;
