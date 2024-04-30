@@ -15,7 +15,7 @@ body{
 	font: 16px Arial;
 	font-weight: bold;
 	font-stretch: condensed;
-	color: #000000;
+	color: #0000ff;
 	-webkit-text-stroke: #ffcc00;
 }
 
@@ -250,7 +250,7 @@ body{
 	font-weight: bold;
 	font-stretch: condensed;
 	color: #0000ff;
-	-webkit-text-stroke: #000000;
+	-webkit-text-stroke: #0000ff;
 }
 
 
@@ -261,7 +261,7 @@ body{
 	font-weight: bold;
 	font-stretch: condensed;
 	color: #0000ff;
-	-webkit-text-stroke: #000000;
+	-webkit-text-stroke: #0000ff;
 }
 
 .p3 {
