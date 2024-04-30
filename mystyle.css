@@ -48,11 +48,11 @@ body{
 	}
 	
 	.container {
-		width: 0% !important; /* se si mostra il container con immagini, deve essere 100% */
+		width: 100% !important; /* se si mostra il container con immagini, deve essere 100% */
 		display: none;
 	}
 	.footer{
-		position: 0 !important; /* se si mostra il container con immagini, deve essere relative */
+		position: relative !important; /* se si mostra il container con immagini, deve essere relative */
 		z-index: auto;
 		padding-top: 1rem;
 	}
