@@ -223,7 +223,7 @@ body{
 
 .carousel-controls-container a {
 	text-decoration: none;
-	color:black;
+	color:#0000ff;
 	font-size: 1rem;
 	font: Arial;
 	font-weight: bold;
@@ -249,7 +249,7 @@ body{
 	font: 16px Arial;
 	font-weight: bold;
 	font-stretch: condensed;
-	color: #000000;
+	color: #0000ff;
 	-webkit-text-stroke: #000000;
 }
 
@@ -260,7 +260,7 @@ body{
 	font: 16px Arial;
 	font-weight: bold;
 	font-stretch: condensed;
-	color: #000000;
+	color: #0000ff;
 	-webkit-text-stroke: #000000;
 }
 
@@ -286,12 +286,12 @@ body{
 
 
 a.one:link {
-	color: #000000;
+	color: #0000ff;
 	text-decoration: none
 }
 
 a.one:visited {
-	color: #000000;
+	color: #0000ff;
 	text-decoration: none
 }
 
