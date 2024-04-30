@@ -29,7 +29,7 @@ body{
 /* da tablet in su */
 @media (min-width:768px){
 	.container {
-		width: 90%; /* da modificare */
+		width: 100%; /* da modificare */
 	}
 }
 
@@ -48,11 +48,11 @@ body{
 	}
 	
 	.container {
-		width: 100% !important; /* se si mostra il container con immagini, deve essere 100% */
+		width: 0% !important; /* se si mostra il container con immagini, deve essere 100% */
 		display: none;
 	}
 	.footer{
-		position: relative !important; /* se si mostra il container con immagini, deve essere relative */
+		position: 0 !important; /* se si mostra il container con immagini, deve essere relative */
 		z-index: auto;
 		padding-top: 1rem;
 	}
