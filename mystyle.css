@@ -109,7 +109,7 @@ body{
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
 	position: absolute;
-	bottom:50%;	
+	bottom:20%;	
 	left: 50%;
 	transform: translate3d(-50%,-50%,0);
 	max-height: 110vh;
