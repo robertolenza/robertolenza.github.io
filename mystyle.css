@@ -15,7 +15,7 @@ body{
 	font: 16px Arial;
 	font-weight: bold;
 	font-stretch: condensed;
-	color: #0000ff;
+	color: blue;
 	-webkit-text-stroke: #ffcc00;
 }
 
@@ -29,7 +29,7 @@ body{
 /* da tablet in su */
 @media (min-width:768px){
 	.container {
-		width: 120%; /* da modificare */
+		width: 100%; /* da modificare */
 	}
 }
 
@@ -223,7 +223,7 @@ body{
 
 .carousel-controls-container a {
 	text-decoration: none;
-	color:#0000ff;
+	color:blue;
 	font-size: 1rem;
 	font: Arial;
 	font-weight: bold;
@@ -249,8 +249,8 @@ body{
 	font: 16px Arial;
 	font-weight: bold;
 	font-stretch: condensed;
-	color: #0000ff;
-	-webkit-text-stroke: #0000ff;
+	color: blue;
+	-webkit-text-stroke: blue;
 }
 
 
@@ -260,8 +260,8 @@ body{
 	font: 16px Arial;
 	font-weight: bold;
 	font-stretch: condensed;
-	color: #0000ff;
-	-webkit-text-stroke: #0000ff;
+	color: blue;
+	-webkit-text-stroke: blue;
 }
 
 .p3 {
@@ -286,12 +286,12 @@ body{
 
 
 a.one:link {
-	color: #0000ff;
+	color: blue;
 	text-decoration: none
 }
 
 a.one:visited {
-	color: #0000ff;
+	color: blue;
 	text-decoration: none
 }
 
