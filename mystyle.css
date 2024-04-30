@@ -64,13 +64,13 @@ body{
 	}
 
 	.carousel-inner>.item {
-		height: 65vh !important;
+		height: 80vh !important;
 	}
 	.carousel-inner>.item>a>img,
 	.carousel-inner>.item>img {
 		
 	height: auto !important;
-	max-height: 65vh;
+	max-height: 80vh;
 	object-fit: contain;
 }
 
