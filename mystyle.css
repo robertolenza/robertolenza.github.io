@@ -29,7 +29,7 @@ body{
 /* da tablet in su */
 @media (min-width:768px){
 	.container {
-		width: 100%; /* da modificare */
+		width: 120%; /* da modificare */
 	}
 }
 
