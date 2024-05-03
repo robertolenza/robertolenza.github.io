@@ -241,6 +241,7 @@ body{
 
 .carousel-controls-container .container:hover {
 	cursor: pointer;
+/*	cursor: s-resize;*/
 }
 
 
